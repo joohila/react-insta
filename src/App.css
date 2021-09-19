@@ -1,0 +1,72 @@
+*{
+  margin:0;
+}
+
+.spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031; /* High z-index so it is on top of the page */
+  top: 50%;
+  right: 50%; /* or: left: 50%; */
+  /* margin-top: -..px; /* half of the elements height */
+  /* margin-right: -..px; half of the elements widht  */
+}
+.app_posts{
+  /* align-content:'center';
+  padding:20px; */
+  /* display:flex; */
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  padding: 20px 50px;
+  /* justify-content:center; */
+}
+
+.app_uploadposts{
+  position:sticky;
+  bottom:0;
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  background-color: white;
+  width:100%;
+  /* z-index: 1; */
+  padding-top : 1px;
+  border-top : 1px solid lightgray;
+}
+
+
+.app_postsRight{
+  margin-left:20px;
+
+}
+/* .app_postsLeft{
+
+} */
+.app{
+  /* colorzilla - chrome- hexcode colour */
+  background-color:#fafafa;
+
+}
+
+.app_signup{
+  display:flex;
+  flex-direction: column;
+}
+
+.app_header{
+  position:sticky;
+  top:0;
+  z-index: 1;
+  background-color: white;
+  padding:10px;
+  margin-bottom: 20px;
+  border-bottom : 1px solid lightgray;
+  object-fit:contain;
+  display:flex;
+  justify-content:space-between;
+}
+
+.app_headerImage{
+  object-fit:contain;
+}

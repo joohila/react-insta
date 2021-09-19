@@ -1,0 +1,23 @@
+
+
+.post_threadcommenttext{
+    flex:1;
+    font-weight:normal;
+    padding-top:0;
+    padding-left:45px;
+    padding-bottom:10px;
+}
+
+.post_threadcommentBox{
+    display: flex;
+    justify-content:space-between;
+}
+.spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031; /* High z-index so it is on top of the page */
+    top: 50%;
+    right: 50%; /* or: left: 50%; */
+    /* margin-top: -..px; /* half of the elements height */
+    /* margin-right: -..px; half of the elements widht  */
+  }

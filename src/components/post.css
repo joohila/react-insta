@@ -1,0 +1,141 @@
+.post{
+    background-color:white;
+    /* max-width:550px; */
+    width: 30%;
+    /* max-height:700px; */
+    border: 1px solid lightgray;
+    margin-bottom : 45px;
+    overflow: hidden;
+    /* display:flex;
+    flex-direction: column;
+    object-fit: contain;
+    flex: 1 1 0px */
+}
+
+.spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031; /* High z-index so it is on top of the page */
+  top: 50%;
+  right: 50%; /* or: left: 50%; */
+  /* margin-top: -..px; /* half of the elements height */
+  /* margin-right: -..px; half of the elements widht  */
+}
+
+.post_image{
+    width:100%;
+    /* height:max-content; */
+    /* object-fit:contain; */
+    /* border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; */
+}
+
+.post_header{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    justify-content:space-between;
+}
+
+.post_captiontext{
+    font-weight:normal;
+    padding: 15px;
+    /* border-bottom: 1px solid lightgray; */
+}
+.post_viewComments{
+  padding: 0px 15px 15px 15px;
+  color:lightgray;
+}
+.app_signup{
+  display:flex;
+  flex-direction: column;
+}
+
+.app_header{
+  position:sticky;
+  top:0;
+  z-index: 1;
+  background-color: white;
+  padding:10px;
+  margin-bottom: 20px;
+  border-bottom : 1px solid lightgray;
+  object-fit:contain;
+  display:flex;
+  justify-content:space-between;
+}
+
+.app_headerImage{
+  object-fit:contain;
+}
+
+.post_commenttext{
+    flex:1;
+    font-weight:normal;
+    padding-left:15px;
+    padding-top:5px;
+
+    padding-bottom:5px
+    /* padding: 15px 20px; */
+}
+
+.post_mesgbutton{
+    flex:0;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 2px;
+    margin-left: 0px;
+}
+.post_commenttxtBox{
+    display:flex;
+    justify-content:space-between;
+}
+
+.post_avatar{
+    margin-right:10px;
+}
+.post_userInfo{
+  flex:1;
+}
+/* .post_vertIcon{
+  flex:0;
+} */
+.post_commentBox{
+    display:flex;
+    max-height:80px;
+    /* padding-top:10px; */
+}
+
+
+.post_input{
+    flex:1;
+    border:none;
+    padding:10px;
+    border-top:1px solid lightgray;
+     
+}
+input[type=text]:focus{
+    outline: none     
+  }
+
+.post_button{
+    flex:0;
+    border:none;
+    color:#6082a3;
+    background-color:transparent;
+    border-top:1px solid lightgray;
+
+}
+
+/* If screen size is more than 600px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 600px) {
+    div.post {
+      width: 50%;
+    }
+  }
+  
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div.post {
+      width: 100%;
+    }
+  }

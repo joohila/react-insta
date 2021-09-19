@@ -1,0 +1,63 @@
+.imageupload{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    /* width:30%; */
+    /* width:550px; */
+    /* min-width:450px; */
+    /* width:100%; */
+    /* max-width:100%;
+    min-width: 100%; */
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    margin-top:10px;
+    
+    /* justify-content:space-between; */
+    /* background-color:white;
+    border-top:1px solid lightgray; */
+}
+
+.imageupload_progress{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.imageupload_input{
+    flex:1;
+    border:none;
+    /* flex:1;
+    border:none;
+    padding:10px;
+    border-top:1px solid lightgray; */
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:10px;
+
+    
+}
+
+.imageupload_button{
+    flex:0;
+    color:#6082a3;
+    background-color:transparent;
+    /* flex:0;
+    border:none;
+    color:#6082a3;
+    background-color:transparent;
+    border-top:1px solid lightgray; */
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:10px;
+
+}
+
+/* .imageupload_Box{
+    display:flex;
+    justify-content:space-between;
+} */
+
+/* .imageupload_input :input[type=text]:focus{
+    outline:   2px solid #6082a3;   
+  } */
